@@ -1,0 +1,88 @@
+<svg width="1200" height="480" viewBox="0 0 1200 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Reddit Lead Radar banner</title>
+  <desc id="desc">A professional banner showing Reddit posts flowing into a radar scoring engine and becoming opportunity cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.52" stop-color="#12253A"/>
+      <stop offset="1" stop-color="#0D332D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="168" y1="108" x2="1006" y2="357" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF5A1F"/>
+      <stop offset="0.48" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="480" rx="34" fill="url(#bg)"/>
+  <path d="M0 382C126 337 213 347 319 382C452 426 546 391 646 326C758 253 886 238 1200 280V480H0V382Z" fill="#0F766E" opacity="0.18"/>
+  <path d="M0 101C144 44 294 56 456 117C583 165 688 166 817 122C919 87 1028 73 1200 95V0H0V101Z" fill="#1D4ED8" opacity="0.16"/>
+
+  <g opacity="0.16" stroke="#E5E7EB">
+    <circle cx="782" cy="230" r="170"/>
+    <circle cx="782" cy="230" r="112"/>
+    <circle cx="782" cy="230" r="55"/>
+    <path d="M782 60V400"/>
+    <path d="M612 230H952"/>
+    <path d="M662 110L902 350"/>
+    <path d="M902 110L662 350"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="86" y="83" width="426" height="314" rx="26" fill="#F8FAFC"/>
+    <rect x="112" y="113" width="86" height="26" rx="13" fill="#FF4500"/>
+    <text x="126" y="132" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="white">REDDIT</text>
+    <text x="112" y="176" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" fill="#101828">Lead Radar</text>
+    <text x="112" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="500" fill="#475467">Find public pain points worth validating.</text>
+
+    <g transform="translate(112 242)">
+      <rect width="354" height="52" rx="14" fill="#EEF2FF"/>
+      <circle cx="30" cy="26" r="11" fill="#FF5A1F"/>
+      <text x="54" y="22" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">"Looking for a tool..."</text>
+      <text x="54" y="38" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#667085">Pain + buyer signal + workflow fit</text>
+    </g>
+    <g transform="translate(112 307)">
+      <rect width="354" height="52" rx="14" fill="#ECFDF5"/>
+      <circle cx="30" cy="26" r="11" fill="#14B8A6"/>
+      <text x="54" y="22" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">Opportunity score: 89/100</text>
+      <text x="54" y="38" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#667085">Turn threads into tiny MVP cards</text>
+    </g>
+  </g>
+
+  <path d="M536 240H661" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M641 219L667 240L641 261" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g filter="url(#shadow)">
+    <rect x="688" y="92" width="340" height="288" rx="28" fill="#07111F" stroke="#2DD4BF" stroke-opacity="0.42"/>
+    <text x="728" y="145" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#E5E7EB">Signal Engine</text>
+    <text x="728" y="174" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Ranks threads by practical build potential</text>
+
+    <g transform="translate(728 210)">
+      <text x="0" y="0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#CBD5E1">Pain</text>
+      <rect x="92" y="-12" width="188" height="12" rx="6" fill="#1E293B"/>
+      <rect x="92" y="-12" width="144" height="12" rx="6" fill="#FF5A1F"/>
+    </g>
+    <g transform="translate(728 252)">
+      <text x="0" y="0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#CBD5E1">Buyer intent</text>
+      <rect x="92" y="-12" width="188" height="12" rx="6" fill="#1E293B"/>
+      <rect x="92" y="-12" width="126" height="12" rx="6" fill="#38BDF8"/>
+    </g>
+    <g transform="translate(728 294)">
+      <text x="0" y="0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#CBD5E1">Automation</text>
+      <rect x="92" y="-12" width="188" height="12" rx="6" fill="#1E293B"/>
+      <rect x="92" y="-12" width="162" height="12" rx="6" fill="#2DD4BF"/>
+    </g>
+
+    <rect x="728" y="322" width="252" height="38" rx="19" fill="url(#accent)"/>
+    <text x="768" y="346" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#06101D">Ship a 24-hour MVP</text>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="782" cy="230" r="9" fill="#2DD4BF"/>
+    <path d="M782 230L909 161" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="909" cy="161" r="6" fill="#FF5A1F"/>
+  </g>
+</svg>

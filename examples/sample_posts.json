@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sample1",
+    "subreddit": "SideProject",
+    "title": "Looking for a tool to automate Shopify product page audits",
+    "selftext": "I help a small ecommerce client and the manual workflow takes too long every day. We check copy, product images, trust badges, and SEO by hand.",
+    "author": "sample_user",
+    "permalink": "/r/SideProject/comments/sample1/example/",
+    "url": "https://www.reddit.com/r/SideProject/comments/sample1/example/",
+    "score": 22,
+    "num_comments": 9,
+    "created_utc": 1800000000,
+    "comments": [
+      "Finding demand before building is the useful part.",
+      "A report generator for Shopify pages would be handy."
+    ]
+  },
+  {
+    "id": "sample2",
+    "subreddit": "automation",
+    "title": "Need a tool that turns messy CSV files into weekly reports",
+    "selftext": "Our team wastes time cleaning spreadsheet exports and writing the same report every Friday.",
+    "author": "ops_sample",
+    "permalink": "/r/automation/comments/sample2/example/",
+    "url": "https://www.reddit.com/r/automation/comments/sample2/example/",
+    "score": 14,
+    "num_comments": 5,
+    "created_utc": 1800000000,
+    "comments": []
+  }
+]
+

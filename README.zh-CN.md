@@ -2,6 +2,8 @@
 
 [English README](README.md)
 
+![Reddit Lead Radar banner](assets/reddit-lead-radar-banner.svg)
+
 一个本地优先的 Reddit 痛点研究 CLI，适合独立开发者、自动化接单者和小工具创作者用来发现真实需求。
 
 它会扫描 Reddit 的公开 JSON 页面，按实用机会信号给帖子排序，并把值得验证的线索整理成一张张“小项目机会卡片”。
@@ -111,4 +113,3 @@ Subreddit: r/SideProject
 - CSV 导出
 - 更好的评论摘要
 - 可选的 LLM 机会分析
-

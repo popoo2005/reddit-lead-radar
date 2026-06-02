@@ -2,6 +2,8 @@
 
 [中文说明](README.zh-CN.md)
 
+![Reddit Lead Radar banner](assets/reddit-lead-radar-banner.svg)
+
 A local-first Reddit pain-point research CLI for indie hackers.
 
 It scans public Reddit JSON endpoints, ranks posts by practical opportunity signals, and turns the best threads into small automation project cards you can validate quickly.
